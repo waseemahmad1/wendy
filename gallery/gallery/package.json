@@ -1,4 +1,9 @@
-"scripts": {
+{
+  "name": "wendy",
+  "version": "0.1.0",
+  "private": false,
+  "homepage": "https://github.com/waseemahmad1/wendy",
+  "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
@@ -24,23 +29,20 @@
       "last 1 safari version"
     ]
   },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.7",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-simple-typewriter": "^5.0.1",
+    "web-vitals": "^2.1.4"
+  },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-    "homepage": "https://github.com/waseemahmad1/wendy",
-    "name": "wendy",
-    "version": "0.1.0",
-    "private": false,
-    "dependencies": {
-      "@emotion/react": "^11.11.3",
-      "@emotion/styled": "^11.11.0",
-      "@mui/material": "^5.15.7",
-      "@testing-library/jest-dom": "^5.17.0",
-      "@testing-library/react": "^13.4.0",
-      "@testing-library/user-event": "^13.5.0",
-      "react": "^18.2.0",
-      "react-dom": "^18.2.0",
-      "react-scripts": "5.0.1",
-      "react-simple-typewriter": "^5.0.1",
-      "web-vitals": "^2.1.4"
   }
 }
